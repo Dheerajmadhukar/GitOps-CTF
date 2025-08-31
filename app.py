@@ -7,3 +7,4 @@ print("Welcome to Git CTF Lab!")
 def utility_function():
     return "Utility"
 # Feature B
+# Imposter's change
