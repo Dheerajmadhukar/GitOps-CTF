@@ -6,3 +6,8 @@ print("Welcome to Git CTF Lab!")
 
 def utility_function():
     return "Utility"
+
+import os
+
+def get_config():
+    return {"debug": True}
