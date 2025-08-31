@@ -1,7 +1,7 @@
-# Hints for Challenge 3: Git Bisect Hunt
+# Hints for Challenge 4: Stash Investigation
 
-The flag is in the commit message of the commit that broke 'working_function'.\n- Use `git bisect` to find the bad commit.\n- Start with the good and bad commits provided in bisect_setup.txt.\n- Use `git log --oneline` to check the commit message.
+The flag is hidden in a stash message.\n- Use `git stash list` to see all stashes.\n- Use `git stash show -p <stash>` to inspect stash contents.\n- Check the stash message for the flag.
 
-**Branch**: `level_3_bisect_hunt`
+**Branch**: `level_4_stash_investigation`
 
 Explore the repository to find the flag using Git commands!
