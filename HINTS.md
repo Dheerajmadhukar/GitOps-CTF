@@ -1,7 +1,7 @@
-# Hints for Challenge 3: Git Bisect Hunt
+# Hints for Challenge 11: The Imposter
 
-The flag is in the commit message of the commit that broke 'working_function'.\n- Use `git bisect` to find the bad commit.\n- Start with the good and bad commits provided in bisect_setup.txt.\n- Use `git log --oneline` to check the commit message.
+The flag is in the commit message of an imposter's commit.\n- Use `git log --pretty=full` to see author and committer information.\n- Identify commits by 'Imposter <imposter@example.com>'.
 
-**Branch**: `level_3_bisect_hunt`
+**Branch**: `level_11_imposter`
 
 Explore the repository to find the flag using Git commands!
