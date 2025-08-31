@@ -1,7 +1,7 @@
-# Hints for Challenge 3: Git Bisect Hunt
+# Hints for Challenge 8: Branch Analysis Maze
 
-The flag is in the commit message of the commit that broke 'working_function'.\n- Use `git bisect` to find the bad commit.\n- Start with the good and bad commits provided in bisect_setup.txt.\n- Use `git log --oneline` to check the commit message.
+The flag is in the commit message of a specific branch.\n- Use `git branch -a` to list all branches.\n- Check each branch's latest commit message with `git log --oneline`.
 
-**Branch**: `level_3_bisect_hunt`
+**Branch**: `main (check level_8_decoy, level_8_wrong, level_8_secret)`
 
 Explore the repository to find the flag using Git commands!
