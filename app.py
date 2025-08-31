@@ -6,3 +6,6 @@ print("Welcome to Git CTF Lab!")
 
 def utility_function():
     return "Utility"
+
+def working_function():
+    return "Working correctly"
