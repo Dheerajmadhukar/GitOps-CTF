@@ -1,3 +1,3 @@
 print("Original functionality")
 def original_function():
-    return "Original"
+    return "Fixed v1"
