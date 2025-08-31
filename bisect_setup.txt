@@ -1,0 +1,17 @@
+Git Bisect Hunt Challenge
+
+There is a bug in the 'level_3_bisect_hunt' branch. The 'working_function' in 'app.py' is broken.
+Your mission is to find the commit that introduced the bug. The flag is in the commit message.
+
+Good commit (working): $GOOD_COMMIT
+Bad commit (broken): $BAD_COMMIT
+
+Use 'git bisect' to find the bad commit.
+
+Hint: 
+1. git checkout level_3_bisect_hunt
+2. git bisect start
+3. git bisect bad $BAD_COMMIT
+4. git bisect good $GOOD_COMMIT
+5. Test the function (check if it returns "Working correctly" or "This is broken!")
+6. git bisect reset
