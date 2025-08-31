@@ -9,3 +9,6 @@ def utility_function():
 
 def working_function():
     return "Working correctly"
+
+def working_function():
+    return "This is broken!"  # Bug introduced here
