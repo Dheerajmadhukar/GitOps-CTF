@@ -1,0 +1,7 @@
+--- a/original.py
++++ b/original.py
+@@ -1,4 +1,4 @@
+ print("Original functionality")
+ def original_function():
+-    return "Original"
++    return "Fixed v1"
