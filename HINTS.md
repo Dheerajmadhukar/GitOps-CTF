@@ -1,7 +1,7 @@
-# Hints for Challenge 3: Git Bisect Hunt
+# Hints for Challenge 12: The Vault
 
-The flag is in the commit message of the commit that broke 'working_function'.\n- Use `git bisect` to find the bad commit.\n- Start with the good and bad commits provided in bisect_setup.txt.\n- Use `git log --oneline` to check the commit message.
+The flag is hidden in a multi-step challenge.\n- Start with `git reflog` to find a deleted commit.\n- Follow the clue to a tag with `git show v1.0-alpha`.\n- Use `git stash list` to find the stash with the flag in its message.
 
-**Branch**: `level_3_bisect_hunt`
+**Branch**: `level_12_vault`
 
 Explore the repository to find the flag using Git commands!
